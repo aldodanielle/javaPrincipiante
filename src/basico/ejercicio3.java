@@ -15,17 +15,17 @@ public class ejercicio3 {
     
     public void ejecutar(){
         Scanner entrada= new Scanner(System.in);
-        int dolares, guillerno, luis, juan ;
+        int dolares, guillerno, luis, juan;
         
         
         System.out.print("Dolares: ");
         dolares = entrada.nextInt();
         guillerno = dolares;
         luis = guillerno / 2;
-        juan = (guillerno + luis) * 2;
-        System.out.println("Guillermo tiene: $" +guillerno+ "dolares");
-        System.out.println("Luis tiene: $" +luis+ "dolares");
-        System.out.println("Juan tiene: $" +juan+ "dolares");
+        juan = (guillerno + luis) / 2;
+        System.out.println("Guillermo tiene: $" +guillerno+ " dolares");
+        System.out.println("Luis tiene: $" +luis+ " dolares");
+        System.out.println("Juan tiene: $" +juan+ " dolares");
 
 
     }
