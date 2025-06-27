@@ -20,9 +20,15 @@ public class condicionIfElse {
         double redondeo = Math.round(aleatorio);
         num = Integer.parseInt(JOptionPane.showInputDialog("Digita un numero: " +redondeo));
         
-        // != diferente
-        // > mayor que
-        // < menor que
+        /*
+            == : igualdad
+            != : diferente
+            >  : mayor que
+            <  : menor que
+            >= : mayor o igual a
+            <= : menor o igual a
+        */
+        
         if (num == redondeo){
             JOptionPane.showMessageDialog(null, "🎉🎉 Felicidades arestate el numero "  +redondeo);
         }else{
