@@ -28,29 +28,18 @@ public class ejercicio11 {
         
         switch(opcion){
             case 'S':
-                
-                
                 sum = num1 + num2;
                 JOptionPane.showConfirmDialog(null, "La suma de " +num1+ " y " +num2+ " es igual a: " +sum);
                 break;
             case 'R':
-                //num1 = Integer.parseInt(JOptionPane.showInputDialog("Dame el primer valor: "));
-                //num2 = Integer.parseInt(JOptionPane.showInputDialog("Dame el segundo valor: "));
-                
                 res = num1 - num2;
                 JOptionPane.showConfirmDialog(null, "La resta de " +num1+ " y " +num2+ " es igual a: " +res);
                 break;
             case 'M':
-                //num1 = Integer.parseInt(JOptionPane.showInputDialog("Dame el primer valor: "));
-                //num2 = Integer.parseInt(JOptionPane.showInputDialog("Dame el segundo valor: "));
-                
                 mult = num1 * num2;
                 JOptionPane.showConfirmDialog(null, "La multiplicacion de " +num1+ " y " +num2+ " es igual a: " +mult);
                 break;
             case 'D':
-                //num1 = Integer.parseInt(JOptionPane.showInputDialog("Dame el primer valor: "));
-                //num2 = Integer.parseInt(JOptionPane.showInputDialog("Dame el segundo valor: "));
-                
                 div = num1 / num2;
                 JOptionPane.showConfirmDialog(null, "La division de " +num1+ " y " +num2+ " es igual a: " +div);
                 break;
