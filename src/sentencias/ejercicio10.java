@@ -54,10 +54,10 @@ public class ejercicio10 {
                 if(ano != 0){
                     JOptionPane.showConfirmDialog(null, "La fecha es correcta: " +dia+ "-"+mes+"-"+ano+" ✅");
                 }else{
-                    JOptionPane.showConfirmDialog(null, "El fecha es incorrecta: " +dia+ "-"+mes+"-"+ano+" ❌");
+                    JOptionPane.showConfirmDialog(null, "El año es incorrecta: " +dia+ "-"+mes+"-"+ano+" ❌");
                 }
             }else
-                JOptionPane.showConfirmDialog(null, "El fecha es incorrecta: " +dia+ "-"+mes+"-"+ano+" ❌");
+                JOptionPane.showConfirmDialog(null, "El mes es incorrecta: " +dia+ "-"+mes+"-"+ano+" ❌");
         }else {
             JOptionPane.showConfirmDialog(null, "El fecha es incorrecta: " +dia+ "-"+mes+"-"+ano+" ❌");
         }
