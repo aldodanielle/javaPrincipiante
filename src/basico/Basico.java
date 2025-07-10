@@ -6,7 +6,7 @@ package basico;
 
 import sentencias.condicionIfElse;
 import sentencias.sentenciaSwitch;
-import sentencias.ejercicio9;
+import sentencias.ejercicio12;
 /**
  *
  * @author daniellara
@@ -18,7 +18,7 @@ public class Basico {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ejercicio9 clase = new ejercicio9();
+        ejercicio12 clase = new ejercicio12();
         
         clase.ejecutar();
     }
