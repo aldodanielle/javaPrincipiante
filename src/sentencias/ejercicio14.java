@@ -27,21 +27,21 @@ public class ejercicio14 {
             case 1:
                 mili = kilos * 1000000;
                 JOptionPane.showConfirmDialog(null, " Miligramos "
-                        + "\n Tus "+kilos+"k equivalena a: " +mili+ " miligramos");
+                        + "\n Tus "+kilos+"kg equivalena a: " +mili+ " miligramos");
                 break;
             case 2:
                 gram = kilos * 1000;
                 JOptionPane.showConfirmDialog(null, " Gramos "
-                        + "\n Tus "+kilos+"k equivalena a: " +gram+ " gramos");
+                        + "\n Tus "+kilos+"kg equivalena a: " +gram+ " gramos");
                 break;
             case 3:
                 JOptionPane.showConfirmDialog(null, " Kiloss "
-                        + "\n Tus "+kilos+"k equivalena a: " +kilos+ " kilos");
+                        + "\n Tus "+kilos+"kg equivalena a: " +kilos+ " kilos");
                 break;
             case 4:
                 tone = kilos/1000;
                 JOptionPane.showConfirmDialog(null, " Miligramos "
-                        + "\n Tus "+kilos+"k equivalena a: " +tone+ "miligramos");
+                        + "\n Tus "+kilos+"kg equivalena a: " +tone+ " toneladas");
                 break;
             default:
                 JOptionPane.showConfirmDialog(null, "error de opcion");
