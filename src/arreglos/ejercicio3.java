@@ -39,7 +39,7 @@ public class ejercicio3 {
         System.err.println("Resumen");
         System.out.println("Promedio numeros positivo: " +avgPos);
         System.out.println("Promedio numeros negativos: " +avgNeg);
-        System.out.println("Tenemos: "+contadorCero+" en el arreglo");
+        System.out.println("Tenemos: "+contadorCero+" ceros en el arreglo");
         
     }
     
