@@ -32,7 +32,7 @@ public class ejercicio6 {
             datosB[i] = entrada.nextInt();
         }
         
-        System.err.println("Reseultado");
+        System.err.println("\nResultado");
         
         int c = 0;
         for(int i = 0; i < 12; i+= 3){
