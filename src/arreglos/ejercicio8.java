@@ -31,22 +31,29 @@ public class ejercicio8 {
         System.out.print("Dame el dato: ");
         dato = entrada.nextInt();
         
+        
+        // Vailidacion
         if(posicion < 0 || posicion > 9){
             System.out.println("Posicion Incorrecta");
             return;
         }
         
+        
+        // Desplazamiento a la derecha
         for(int i = 9; i > posicion; i--){
             arreglo[i] = arreglo[i - 1];
         }
         
+        // inserpcion del dato
         arreglo[posicion] = dato;
             
+        
+        // se imprimen los resultados
         System.err.println("Resultado");
         for(int i = 0; i < 10; i++){
             System.out.print(arreglo[i] + " ");
         }
         
-        System.out.println("");
+        System.out.println("\n");
     }
 }
