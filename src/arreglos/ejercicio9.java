@@ -32,13 +32,13 @@ public class ejercicio9 {
         }while(!esPositivo);
         
         
-        ultimoElemento = data[9];
+        ultimoElemento = data[9];   // almacenamos el ultimo dato
         
         for(int i = 8; i >= 0; i--){ // avanzamos de posicion en el array
             data[i+1] = data[i];
         }
         
-        data[0] = ultimoElemento;
+        data[0] = ultimoElemento; // insertamos el dato almacenado a el primer valor del arreglo
         
         System.err.println("\nResumen");
         for(int i = 0; i < 10; i++){
