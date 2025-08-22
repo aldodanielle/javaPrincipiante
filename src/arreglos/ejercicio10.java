@@ -27,7 +27,7 @@ public class ejercicio10 {
         }
         
         System.err.println("Recorrido");
-        System.out.print("Dame el numero de recorridos");
+        System.out.print("Dame el numero de recorridos: ");
         recorrido = entrada.nextInt();
         
         // Arreglo desplazado
