@@ -18,6 +18,8 @@ public class ejercicio11 {
         int data[] = new int[10];
         boolean orden = true;
         int newNum;
+        int sitio = 0;
+        int iterador = 0;
         
         
         System.out.println("Entrada Datos");
@@ -46,6 +48,27 @@ public class ejercicio11 {
         
         System.out.print("Dame el numero a insertar: ");
         newNum = entrada.nextInt();
+        
+        // buscamos la posicion del numero insertado
+        while(data[iterador] < newNum && iterador < 5){
+            sitio++;
+            iterador++;
+        }
+        
+        // Se recorre el arreglo
+        for(int i = 4; i > sitio; i--){
+            data[i + 1] = data[i];
+        }
+        
+        // insertamos el numero en el arreglo
+        data[sitio] = newNum;
+        
+        System.out.println("Resultado");
+        for(int i = 0; i < 6; i++){
+            System.out.print(data[i] + " ");
+        }
+        
+        System.out.println("");
     }
     
 }
