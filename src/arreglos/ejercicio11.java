@@ -24,13 +24,14 @@ public class ejercicio11 {
         
         System.out.println("Entrada Datos");
         System.out.println("Recuerda que son numero crecientes");
+        // comprobacion y peticion de los datos 
         do{
             for(int i = 0; i < 5; i++){
                 System.out.print("Datos " + (i+1) + ": ");
                 data[i] = entrada.nextInt();
             }
             
-            
+            //Verificamos que el arreglo sea el adecuado vaya de manera creciente 
             for(int i = 0; i < 4; i++){
                 if(data[i] < data[i+1]){    // orden correcto 1-2-3-4...
                     orden = true;
